@@ -1,0 +1,47 @@
+/* BEGIN RESET */
+* {
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* END RESET */
+
+/* General Settings */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: lightgreen;
+  font-size: 30px;
+}
+li {
+  list-style-type: none;
+  text-transform: capitalize;
+}
+.hidden {
+  display: none;
+}
+.wrapper {
+  padding: 30px;
+  text-align: center;
+  width: 85%;
+  margin: 50px auto;
+  background: lightgrey;
+  border-radius: 10px;
+  border: 3px solid black;
+  box-shadow: 10px 10px 5px -5px rgba(0,0,0,0.75);
+}
+button {
+  margin: 20px;
+  font-size: 30px;
+  background: lightblue;
+  padding: 10px;
+  border-radius: 10px;
+  border: 3px solid black;
+}
+input {
+  margin: 20px;
+  font-size: 30px;
+  background: pink;
+  padding: 10px;
+  border-radius: 10px;
+  border: 3px solid black;
+}
